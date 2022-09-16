@@ -4,3 +4,8 @@ function isPalindrome(str) {
 }
 
 console.log(isPalindrome("feet"));
+
+function pal(str) {
+  str = str.replace(/\W/g).toLowerCase();
+  return str.split("").reverse().join("");
+}

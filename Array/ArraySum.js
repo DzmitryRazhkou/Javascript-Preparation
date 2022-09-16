@@ -10,7 +10,7 @@ console.log("________");
 
 // Reduce
 
-let sum_ = arr.reduce((sum, mark) => sum + mark, 0);
+let sum_ = arr.reduce((a, b) => a + b);
 console.log(sum_);
 
 // Mapped:

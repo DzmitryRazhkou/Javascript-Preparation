@@ -1,4 +1,4 @@
 var g = [1, 2, 5, 10];
 const del = 5;
-const n = g.filter((i) => i !== del);
+var n = g.filter((z) => z != del);
 console.log(n);

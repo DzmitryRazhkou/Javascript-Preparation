@@ -7,3 +7,13 @@ while (arr[n] === arr[arr.length - 1]) {
   n--;
 }
 console.log(n);
+
+arr.sort();
+
+let l = arr.length - 1;
+
+while (arr[l] === arr[arr.length - 1]) {
+  l--;
+}
+
+console.log(l);

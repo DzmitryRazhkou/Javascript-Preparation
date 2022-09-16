@@ -6,3 +6,12 @@ function rev(str) {
 }
 
 console.log(rev(arr));
+
+console.log("__________");
+
+function reverseEveryWord(str) {
+  var r = str.map((w) => w.split("").reverse().join(""));
+  return r.join(" ");
+}
+
+console.log(reverseEveryWord(arr));
