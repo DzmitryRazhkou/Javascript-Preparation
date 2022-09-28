@@ -1,4 +1,4 @@
-const unsortedArray = [9, 12, 97, 75, 13, 55];
+const unsortedArray = [100, 12, 97, 75, 13, 55, 0, 007];
 const f = unsortedArray.sort((a, b) => {
   return a - b;
 });

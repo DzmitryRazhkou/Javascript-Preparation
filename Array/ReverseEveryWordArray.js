@@ -9,9 +9,9 @@ console.log(rev(arr));
 
 console.log("__________");
 
-function reverseEveryWord(str) {
-  var r = str.map((w) => w.split("").reverse().join(""));
-  return r.join(" ");
+function rev(str) {
+  let u = str.map((y) => y.split("").reverse().join(""));
+  return u.join(" ");
 }
 
-console.log(reverseEveryWord(arr));
+console.log(rev(arr));

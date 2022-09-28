@@ -8,6 +8,6 @@ const t = evs.reduce((obj, ev) => {
     obj[ev]++;
     return obj;
   }
-});
+}, {});
 
 console.log(t);

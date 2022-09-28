@@ -10,8 +10,8 @@ console.log("________");
 
 // Reduce
 
-let sum_ = arr.reduce((a, b) => a + b);
-console.log(sum_);
+let summa = arr.reduce((x, y) => x + y);
+console.log(summa);
 
 // Mapped:
 let sumaped = arr.map((arr) => arr * 3.14);

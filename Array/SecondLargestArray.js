@@ -8,12 +8,14 @@ while (arr[n] === arr[arr.length - 1]) {
 }
 console.log(n);
 
+console.log("_______________");
+
 arr.sort();
 
-let l = arr.length - 1;
+let y = arr.length - 1;
 
-while (arr[l] === arr[arr.length - 1]) {
-  l--;
+while (arr[y] === arr[arr.length - 1]) {
+  y--;
 }
 
-console.log(l);
+console.log(y);
