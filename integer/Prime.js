@@ -1,9 +1,17 @@
-var r = [20, 11, 13];
+function isPrime(num) {
+  let flag = false;
 
-numAr = numAr.filter((ar) => {
-  for (var i = 2; i <= Math.sqrt(ar); i++) {
-    if (ar % i === 0) return false;
+  for (let i = 2; i < num / 2; i++) {
+    if (num % i == 0) {
+      flag = true;
+      break;
+    }
   }
-  return true;
-});
-console.log(r);
+  if (!flag) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+console.log(isPrime(10));
