@@ -1,4 +1,11 @@
-const evs = ["Tesla 3", "Hummer EV", "Tesla 3", "E-Mach", "Chevy SIlverado EV"];
+const evs = [
+  "Tesla 3",
+  "Hummer EV",
+  "Tesla 3",
+  "E-Mach",
+  "Chevy SIlverado EV",
+  "Hummer EV",
+];
 
 const t = evs.reduce((obj, ev) => {
   if (obj[ev] == undefined) {

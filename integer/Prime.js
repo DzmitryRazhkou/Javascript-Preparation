@@ -14,4 +14,4 @@ function isPrime(num) {
   }
 }
 
-console.log(isPrime(10));
+console.log(isPrime(13));

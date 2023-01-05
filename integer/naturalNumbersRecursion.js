@@ -6,4 +6,4 @@ function addRecursion(num) {
   }
 }
 
-console.log(addRecursion(10));
+console.log(addRecursion(12));

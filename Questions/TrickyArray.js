@@ -1,3 +1,3 @@
 var lang = ["Java", "JS", "C++", "Python", "C#"];
 delete lang[2];
-console.log(lang.length);
+console.log(lang); //still 5
