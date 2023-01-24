@@ -1,17 +1,11 @@
-function primeInterval(low, high) {
-  while (low < high) {
-    let flag = false;
-
-    for (let i = 2; i < low; i++) {
-      if (low % i == 0) {
-        flag = true;
-        break;
-      }
-    }
-    if (!flag) {
-      console.log(low);
-    }
-    low++;
+function psw(length) {
+  const characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+  let randomStr = "";
+  for (let i = 0; i < length; i++) {
+    let rand = Math.floor(Math.random() * characters.length);
+    randomStr += characters[rand];
   }
+  console.log(randomStr);
 }
-primeInterval(12, 70);
+
+psw(80);

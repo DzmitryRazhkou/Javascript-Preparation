@@ -1,5 +1,4 @@
 var arr = [750, 50, 3, 195, 350];
-let sorted = arr.sort((a, b) => a - b);
-console.log(sorted);
-let max2 = sorted[sorted.length - 2];
-console.log(max2);
+let s = arr.sort((x, y) => x - y);
+let sec = s[s.length - 3];
+console.log(sec);
