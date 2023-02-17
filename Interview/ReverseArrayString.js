@@ -18,3 +18,23 @@ console.log("________________");
 // }
 
 // mapReverse(strM, " ");
+
+function reverseArray(arr) {
+  return arr.map((item) => item.split("").reverse().join(""));
+}
+
+const sampleArr = ["Levic", "Olly", "Leo"];
+const reverseArr = reverseArray(sampleArr);
+console.log(reverseArr);
+
+let src = [125, 175, 150, 12, 12, 75, 90, 250];
+
+let reverseArraySrc = (arr) => {
+  let reversed = [];
+  for (let i = arr.length - 1; i >= 0; i--) {
+    reversed.push(arr[i]);
+  }
+  console.log(reversed);
+};
+
+reverseArraySrc(src);
