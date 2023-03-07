@@ -1,4 +1,4 @@
-var y = 1;
+let y = 1;
 if (function f() {}) {
   y += typeof f;
 }

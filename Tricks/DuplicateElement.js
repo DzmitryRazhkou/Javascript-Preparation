@@ -5,4 +5,4 @@ const duplicateArray = [12, 15, 50, 35, 50, 12, 75, 35];
 // console.log(duplicates);
 
 var t = duplicateArray.filter((le, index, ar) => ar.indexOf(le) != index);
-console.log(t);
+console.log(t.sort((a, b) => a - b));

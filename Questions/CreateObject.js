@@ -1,17 +1,18 @@
 var emp = {
-  name: "Gans",
-  lastName: "Razhkou",
-  contact: {
-    pageCount: 100,
-    defaultSort: "lastName",
-  },
-  contact: [
-    {
-      phone: 2456666,
-      mobile: 4553553,
+    name: "Gans",
+    lastName: "Razhkou",
+    contact: {
+        pageCount: 100,
+        defaultSort: "lastName",
     },
-    {
-      cell: 0995544,
-    },
-  ],
+    contacts: [
+        {
+            phone: 2456666,
+            mobile: 4553553,
+        },
+        {
+            cell: 995544,
+        },
+    ],
 };
+

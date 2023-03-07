@@ -3,3 +3,5 @@ const user = {
 };
 
 const conditionalStatement = user.name || " ";
+
+console.log(conditionalStatement)

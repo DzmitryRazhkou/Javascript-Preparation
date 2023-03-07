@@ -10,4 +10,4 @@ function convertTo24HrsFormat(timeText) {
   return hours.padStart(2, 0) + ":" + mins.slice(0, -2).padStart(2, 0);
 }
 
-console.log(convertTo24HrsFormat("12:10AM"));
+console.log(convertTo24HrsFormat("3:10PM"));

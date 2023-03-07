@@ -4,4 +4,4 @@ while (arr.length < 8) {
   if (arr.indexOf(r) === -1) arr.push(r);
 }
 
-console.log(r);
+console.log(arr);
