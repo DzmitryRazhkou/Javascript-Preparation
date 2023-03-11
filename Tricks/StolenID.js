@@ -7,5 +7,5 @@ var hero = {
 
 var stoleSecretIdentity = hero.getSecretIdentity;
 
-console.log(stoleSecretIdentity());
+console.log(stoleSecretIdentity);
 console.log(hero.getSecretIdentity());

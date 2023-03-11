@@ -4,4 +4,4 @@ const del = 5;
 // console.log(n);
 
 var u = g.filter((a) => a != del);
-console.log(u);
+console.log(u.length);

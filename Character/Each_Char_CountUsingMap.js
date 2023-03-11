@@ -5,8 +5,7 @@ function countEachChar(str) {
         let char = str.charAt(i)
 
         if (map.has(char)) {
-            let value = map.get(char)
-            map.set(char, value + 1)
+            map.set(char, map.get(char) + 1)
         } else {
             map.set(char, 1)
         }

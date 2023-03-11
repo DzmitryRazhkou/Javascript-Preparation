@@ -4,7 +4,7 @@ function f1() {
 }
 console.log(a);
 
-let a = 30;
+a = 30;
 console.log(a);
 
 // can not redeclare let value

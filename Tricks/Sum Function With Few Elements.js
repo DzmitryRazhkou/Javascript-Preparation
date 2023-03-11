@@ -13,5 +13,5 @@ function sum_method2(x, y) {
     }
 }
 
-console.log(sum_method2(2, 3))
+console.log(sum_method1(2, 3))
 

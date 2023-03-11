@@ -1,4 +1,4 @@
-let y = "let"
+let y = "yo"
 
 let permutation = (str, result) => {
     if (str.length == 0) {

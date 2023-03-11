@@ -16,3 +16,4 @@ function truncateString(str, charCount) {
 }
 
 console.log(truncateString(f, 7));
+console.log(split(f, 5))
