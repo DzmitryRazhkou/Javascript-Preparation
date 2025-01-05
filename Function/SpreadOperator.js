@@ -4,5 +4,3 @@ let suv = ["GMC", "Tahoe", "Tundra", "Tacoma"];
 let s = [...evs, ...suv];
 console.log(s);
 
-let city = "LA";
-console.log(typeOf(city));

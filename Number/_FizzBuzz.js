@@ -1,11 +1,15 @@
 function fizzBuzz(bound) {
-  if (bound % 5 == 0 && bound % 3 == 0) {
-    console.log("FB");
-  } else if (bound % 3 == 0) {
-    console.log("F");
-  } else if (bound % 5 == 0) {
-    console.log("B");
-  }
+    for (let i = 1; i < bound; i++) {
+        if (i % 5 === 0 && i % 3 === 0) {
+            console.log("Fizz Buzz")
+        } else if (i % 3 == 0) {
+            console.log("Fizz")
+        } else if (i % 5 === 0) {
+            console.log("Buzz")
+        } else {
+            console.log(i)
+        }
+    }
 }
 
 fizzBuzz(50);

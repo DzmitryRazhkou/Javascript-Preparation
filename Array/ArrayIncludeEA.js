@@ -1,18 +1,21 @@
-// var f = [1, 2, 3, 5, 98, 12, 76];
-// var h = [98, 12, 3];
+const fs = [1, 2, 3, 5, 98, 12, 76];
+const sc = [98, 12, 3];
 
-// var z = f.some((s) => h.includes(s));
+const res = fs.some((s) => sc.includes(s));
+console.log(res)
 
-let fs = [
-  "Action successful",
-  "Action unsuccesful, please try again",
-  "Action unsuccessful",
+console.log("___________")
+
+let firstArray = [
+    "Action successful",
+    "Action unsuccesful, please try again",
+    "Action unsuccessful",
 ];
-let g = [
-  "Action successful",
-  "Action successful",
-  "Action unsuccesful, please try again",
+let secondArray = [
+    "Action successful",
+    "Action successful",
+    "Action unsuccesful, please try again",
 ];
 
-let gt = fs.some((y) => g.includes(y));
-console.log(gt);
+let result = firstArray.some(($el) => secondArray.includes($el));
+console.log(result);

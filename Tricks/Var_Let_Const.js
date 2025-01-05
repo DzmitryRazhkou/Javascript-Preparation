@@ -3,8 +3,8 @@ function f1() {
   console.log("Fuck+ " + a);
 }
 console.log(a);
-
-a = 30;
-console.log(a);
+let s;
+s = a
+console.log(s);
 
 // can not redeclare let value

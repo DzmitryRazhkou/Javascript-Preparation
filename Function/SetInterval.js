@@ -4,4 +4,4 @@ function myFunc() {
 
 setInterval(function () {
   myFunc();
-}, 5000);
+}, 2000);

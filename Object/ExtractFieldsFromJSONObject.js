@@ -21,3 +21,9 @@ let op = input.students.map((x) => {
 });
 
 console.log(op);
+
+let r = input.students.map((u) => {
+  return u.uuid
+})
+
+console.log(r)

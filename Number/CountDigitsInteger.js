@@ -9,3 +9,15 @@ let countDigitsInteger = (number) => {
 };
 
 countDigitsInteger(5676567);
+
+let rs = (num) => {
+  let counter = 0;
+
+  while (num != 0) {
+    num = Math.floor(num / 10);
+    counter++;
+  }
+  console.log(counter);
+};
+
+rs(789);

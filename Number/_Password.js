@@ -11,3 +11,18 @@ function generatePassword(length) {
 }
 
 generatePassword(50);
+
+function gee(length) {
+  const characters =
+    "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_-+=?/<>";
+
+  let psw = "";
+
+  for (let r = 0; r < length; r++) {
+    let random = Math.floor(Math.random() * characters.length);
+    psw += characters[random];
+  }
+  console.log(psw);
+}
+
+gee(200);

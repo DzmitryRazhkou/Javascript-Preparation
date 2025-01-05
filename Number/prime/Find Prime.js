@@ -1,19 +1,19 @@
-function findPrime(numbers){
+function findPrime(numbers) {
     let primeNumbers = []
     numbers.forEach((num) => {
-        if (isPrime(num)){
+        if (isPrime(num)) {
             primeNumbers.push(num)
         }
     })
     return primeNumbers
 }
 
-function isPrime(num){
-    if (num<2){
+function isPrime(num) {
+    if (num < 2) {
         return false
     }
     for (let i = 2; i <= Math.sqrt(num); i++) {
-        if (num%i == 0){
+        if (num % i == 0) {
             return false
         }
     }

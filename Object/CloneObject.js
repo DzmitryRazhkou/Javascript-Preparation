@@ -1,6 +1,6 @@
 const person = {
   firstName: "Polly",
-  lastName: "Steeves",
+  lastName: "Stevenson",
   address: "15 N 1321 Street",
 };
 

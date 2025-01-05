@@ -14,14 +14,14 @@ const input = {
 
     {
       make: "Tesla",
-      model: "Y",
+      model: "Model Y",
       year: 2019,
     },
   ],
 };
 
 const op = input.vehicles.map(function (item) {
-  return item.make;
+  return item.model;
 });
 
 console.log(op);

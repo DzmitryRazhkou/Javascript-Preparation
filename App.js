@@ -1,7 +1,7 @@
-function alphabet(captal = false) {
-    return [...Array(26)].map((_, y) =>
-        String.fromCharCode(y, (captal ? 65 : 97))
-    )
+function min(array) {
+    let min = Math.min(...array)
+    let f = array.filter((el) => el === min)
+    console.log(f)
 }
 
-console.log(alphabet(true))
+min([12, 90, 87, 56, 45])

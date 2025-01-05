@@ -11,4 +11,4 @@ function remainder_2(a, b) {
   return a;
 }
 
-console.log(remainder_2(25, 3));
+console.log(remainder_2(87, 3));

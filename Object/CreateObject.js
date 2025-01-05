@@ -16,3 +16,5 @@ var emp = {
     ],
 };
 
+let r = emp.contact
+console.log(r)

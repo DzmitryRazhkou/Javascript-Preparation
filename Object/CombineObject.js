@@ -5,10 +5,11 @@ const original = {
   zip: "10005",
 };
 
-original.street = "375 Market Street";
+original.street = "375 Market St";
 original.city = "San Francisco";
 original.zip = "97575";
 
-console.log(original);
+// console.log(original);
 
-const r = { ...original, original };
+const r = { ...original, ...original };
+console.log(r);

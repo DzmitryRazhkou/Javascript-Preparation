@@ -23,6 +23,6 @@ const input = {
   ],
 };
 
-let op = input.students.filter((x) => x.rank > 10);
+let op = input.students.filter((x) => x.rank > 15);
 
 console.log(op);
